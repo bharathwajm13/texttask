@@ -1,0 +1,34 @@
+* {
+    margin: 2%;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+p {
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+    font-size: larger;
+}
+
+ li:before {
+    content: '\2714\0020';
+    color: orangered;
+
+}
+
+.btn {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
